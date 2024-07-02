@@ -67,7 +67,7 @@ if (continuartentando){
 tentativas ++;
 }
 
-}while (tentativas < 3);
+}while (continuartentando && tentativas < 3);
 
 if(atendeu){ 
 
